@@ -8,4 +8,3 @@ class Token(DBModel):
 
 class TokenData(DBModel):
     username: str | None = None
-    
