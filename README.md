@@ -25,7 +25,9 @@ This project is built using some amazing technologies:
 
 ## 🚀 Getting Started
 
-git clone https://github.com/yourusername/LevelUpLife.git
+- git clone https://github.com/yourusername/LevelUpLife.git
+- uvicorn main:app --reload
+- Explore the API: Head over to http://localhost:8000/docs to see the magic in action! 🎩✨
 
 
 ## 🎉 Let’s Level Up Together!
