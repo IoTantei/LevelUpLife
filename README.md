@@ -1,19 +1,19 @@
-🏆 LevelUpLife: Your Anti-Procrastination Buddy! 🎉
+# 🏆 LevelUpLife: Your Anti-Procrastination Buddy! 🎉
 
 Welcome to **LevelUpLife**! This app is designed to help you and your friends motivate each other to defeat procrastination and crush your goals! 🚀 Whether you’re aiming for daily wins or long-term achievements, we’ve got you covered! 
 
-📜 What is LevelUpLife?
+## 📜 What is LevelUpLife?
 
 LevelUpLife is your go-to platform for creating and sharing tasks! 🎯 You can post your goals, and other users can rate and react to your fabulous (or maybe not-so-fabulous) tasks! 🥳 Let’s turn procrastination into motivation, one task at a time!
 
-🌟 Features
+### 🌟 Features
 
 - **Create Tasks**: Set up daily, weekly, monthly, or yearly tasks to keep yourself on track! ⏰
 - **Rate & React**: Get feedback from the community on your tasks! Who doesn’t love a little encouragement? 💬❤️
 - **Character Creation**: Unleash your inner RPG fan by creating your own characters with unique stats! Level up your character as you complete tasks! ⚔️🎮
 - **Surprising Features**: Discover unexpected functionalities that will make your productivity journey even more fun! 🎁
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 This project is built using some amazing technologies:
 
@@ -23,11 +23,11 @@ This project is built using some amazing technologies:
 - **SQLModel ORM**: The perfect companion for managing our database interactions! 📊
 - **PostgreSQL**: Our trusty database for storing all your tasks and character stats! 🗃️
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 git clone https://github.com/yourusername/LevelUpLife.git
 
 
-🎉 Let’s Level Up Together!
+## 🎉 Let’s Level Up Together!
 
 So, are you ready to kick procrastination to the curb? Let’s get started with LevelUpLife! 💥
