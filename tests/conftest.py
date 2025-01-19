@@ -1,11 +1,11 @@
 import pytest
+from typing import Generator
 from faker import Faker
 from fastapi import FastAPI
 from sqlalchemy import create_engine
 from sqlmodel import Session, SQLModel
 from starlette.testclient import TestClient
-from testcontainers.postgres import PostgresContainer
-
+from testcontainers.postgres import PostgresContainer # type: ignore
 from leveluplife.api import create_app
 from leveluplife.auth.utils import get_current_active_user
 from leveluplife.controllers.comment import CommentController
@@ -40,7 +40,7 @@ def fixture_engine(postgres):
 
 
 @pytest.fixture(name="session")
-def fixture_session(engine) -> Session:
+def fixture_session(engine) -> Generator[Session, None, None]:
     with Session(engine) as session:
         yield session
 
