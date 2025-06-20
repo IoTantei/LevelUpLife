@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from sqlalchemy import create_engine
 from sqlmodel import Session, SQLModel
 from starlette.testclient import TestClient
-from testcontainers.postgres import PostgresContainer # type: ignore
+from testcontainers.postgres import PostgresContainer  # type: ignore
 from leveluplife.api import create_app
 from leveluplife.auth.utils import get_current_active_user
 from leveluplife.controllers.comment import CommentController

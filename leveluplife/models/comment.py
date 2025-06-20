@@ -7,8 +7,8 @@ from leveluplife.models.shared import DBModel
 
 class CommentBase(DBModel):
     content: str = Field(min_length=1, max_length=800)
-    user_id: UUID | None = Field(foreign_key="user.id")
-    task_id: UUID | None = Field(foreign_key="task.id")
+    user_id: UUID = Field(foreign_key="user.id")
+    task_id: UUID = Field(foreign_key="task.id")
 
 
 class CommentCreate(CommentBase):
